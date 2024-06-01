@@ -1,0 +1,14 @@
+
+.cover-page {
+  margin-top: 0px;
+  min-width: 214.6vh;
+  height: 707px;
+  border: 1px solid transparent;
+  background-image: url('../assets/batman2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.25);
+}
+
+
+

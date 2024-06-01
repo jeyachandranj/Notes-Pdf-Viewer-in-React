@@ -1,0 +1,168 @@
+
+/*------ Top Nav ------*/
+
+.Topnav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 2000 rgba(0, 0, 0, 0.5);
+    align-items: center;
+    padding-left: 10vh;
+    transition: .1s;
+}
+
+.changeColor{
+    background-color: rgba(7, 7, 7, 0.5);
+    z-index: 1;
+
+}
+
+.elements{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    filter: drop-shadow(10px 14px 15px rgb(125, 125, 232) );
+    transition: .2s;
+}
+
+.elements li{
+    display: flex;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.elements li:focus{
+    border: 1px solid white;
+}
+
+.active{
+    display: flex;
+    align-items: end    ;
+    margin-top: 25px;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(69, 69, 235);
+    border-radius: 3px;
+}
+
+.contact_us{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 70%;
+    height: 50px;
+}
+
+.contact_us button{
+    background-color:#171E2E;
+}
+
+/*------ Card Banner ------*/
+
+.getNotes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 100vh;
+
+}
+
+.notes-content {
+    display: flex;
+    width: 200vh;
+    height: 80vh;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.notes-img img{
+    background-image: url('../assets/batman.jpg');
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.ai-notes{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ai-con {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ai-notes .cards{
+    margin-left: 10px;
+}
+
+.cards{
+    display: flex;
+    width: 90%;
+    height: 50%;
+    margin-top: 30px;
+    justify-content: space-around;    
+    overflow-x: hidden;
+}
+
+/*------ Cards Container ------*/
+
+.Cards{
+    display:flex;
+    margin-top: 0px;
+}
+
+.Cards-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 230px;
+    background-color: #272C3A;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-head{
+    display: flex;
+    width: 200px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #171E2E;
+    position: absolute;
+    height: 60px;
+    margin-top: 23vh;
+    margin-left: 2.2vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+    
+}
+
+.card-head:hover{
+    transform: scale(1.1);
+}
