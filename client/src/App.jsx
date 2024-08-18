@@ -4,6 +4,7 @@ import ShowDL from "./Page/PDG SHOW/DL";
 import ShowCO from "./Page/PDG SHOW/CO";
 import ShowWT from "./Page/PDG SHOW/WT";
 import Upload from "./Page/uploadpdf";
+import Ai from "./Page/Ai";
 function App() {
   return (
 
@@ -15,6 +16,7 @@ function App() {
            <Route path="/show/co" element={<ShowCO />} /> 
            <Route path="/show/wt" element={<ShowWT />} /> 
            <Route path="/upload" element={<Upload />} /> 
+           <Route path="/ai" element={<Ai/>}/>
         </Routes>
       </div>
     </Router>
